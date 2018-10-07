@@ -1,0 +1,17 @@
+What is overloading?
+
+Methods with the SAME NAME that have DIFFERENT PARAMETERS or are called "overloaded" methods.
+Methods cannot be overloaded through their RETURN TYPE -
+Methods with the same name, different parameters but different return type CANNOT be overloaded.
+
+Why do we overload methods?
+Case: General methods
+- Consistent naming
+
+Case: Constructors
+- avoiding unnecessary "setter" methods
+- easier to create objects (without being too verbose)
+
+
+Other stuff:
+- Constructors can be overloaded

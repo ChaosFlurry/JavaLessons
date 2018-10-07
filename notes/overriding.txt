@@ -1,0 +1,10 @@
+What is overriding?
+The term overriding is used when talking about methods, specifically, two methods with the same SIGNATURE that appear in both the superclass and a subclass.
+When we say that a method overrides another, we mean that the method in the SUBCLASS "replaces" the method in the superclass the method is called.
+That is to say, when an instance method of a subclass is called, even though a method with the same signature appears in the superclass, the method in the subclass is used instead.
+
+
+Overriding toString() and equals()
+Every class (object) is a subclass of Object, which means that every class inherits the toString() and equals() methods from Object.
+However, these methods (from the superclass Object) often don't work properly when called by instances of created classes.
+To fix this, we can override the toString() and equals() methods in our classes to make them work properly.
